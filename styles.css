@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 60px;
+}
+
+h4 {
+    font-weight: 200;
+    font-size: 25px;
+    line-height: 37px;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+h4, h2, .parrafoPrincipal {
+    text-align: center;
+}
+
+h4 ,.parrafoPrincipal {
+    color: hsl(229, 6%, 66%);
+}
+
+.parrafoPrincipal {
+    font-size: 13px;
+}
+
+.card {
+    border: none;
+    border-top: 3.5px solid cyan;
+
+    width: 250px;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 5px;
+    
+}
+
+.card h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+.card p {
+    font-size: 10px;
+    color: hsl(229, 6%, 66%);
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.card img {
+    position: relative;
+    width: 42px;
+    left: 160px;
+}
+
